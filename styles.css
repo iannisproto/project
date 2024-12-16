@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Horizontally center the circles */
+    align-items: flex-start; /* Align items at the top */
+    height: auto; /* Allow the height to adjust based on content */
+    gap: 25px; /* Adjust the gap between circles */
+    margin: 150px 0; /* Equal top and bottom margin */
+}
+
+.container p {
+    width: 12.5vw;
+    min-width: 200px;
+    aspect-ratio: 1 / 1;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: max(calc(12.5vw * 0.2), 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; /* Reduced margin around each circle */
+}
